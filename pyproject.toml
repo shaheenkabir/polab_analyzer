@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PoLab_analyzer"
+version = "0.1.0"
+description = "CLI tools for PoLab eve and hunchback in-situ image analysis"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "openpyxl"
+]
+
+[project.scripts]
+eve = "scripts.eve:main"
+hb = "scripts.hb:main"

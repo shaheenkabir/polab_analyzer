@@ -1,0 +1,3 @@
+[console_scripts]
+eve = scripts.eve:main
+hb = scripts.hb:main
