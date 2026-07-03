@@ -134,6 +134,3 @@ If processing fails or produces unexpected results, double-check that your Excel
 
 *(Add license information here, e.g., MIT, GPL-3.0, or internal lab use only.)*
 
-## Contact
-
-*(Add maintainer name/email or lab contact information here.)*
